@@ -23,12 +23,9 @@ run pytest
    git clone https://github.com/JustineLuys/oaktree-exam-fastapi.git
    cd oaktree-exam-fastapi
    python -m venv env
-  source env/bin/activate  
-  # Windows: env\Scripts\activate
-
-To install dependencies:
-pip install -r requirements.txt
-
-
-To run the app:
-uvicorn main:app --reload
+   source env/bin/activate
+   Windows: env\Scripts\activate
+   To install dependencies:
+   pip install -r requirements.txt
+   To run the app:
+   uvicorn main:app --reload
